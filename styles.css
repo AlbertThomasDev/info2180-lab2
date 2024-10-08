@@ -1,19 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
 #pfp{
     width: 150px;
     height: auto;
     border-radius: 5000px;
+    
 }
 
 #para-image1{
     width: 100%;
     height: auto;
-    
+    padding-top: 22px;
+    /* padding-right: 22px; */
 }
 
 #para-image2{
     width: 100%;
     height: auto;
-    
+    padding-top: 22px;
+    /* padding-right: 22px; */
+}
+
+
+#article1 .p1{
+    padding-left: 22px;
+}
+
+#article2 .p1{
+    padding-left: 22px;
+}
+
+.pi{
+    padding-bottom: -30px;
 }
 
 body {
@@ -42,7 +62,16 @@ header{
     flex-direction: column;   
     justify-content: center;   
     align-items: center;  
+    padding: 1rem;
+    margin: 0;
+}
 
+header p{
+    margin-top: -25px;
+}
+
+header h1{
+    margin-top: 0px;
 }
 
 header h1 {
@@ -59,9 +88,11 @@ main h2{
 
 main {
     grid-area: main;
+    padding: 1rem;
     /* grid-column:  1 /  7;
     grid-row: 3 / 5; */
     /* background-color: aqua; */
+    padding-bottom: 80px;
 }
 
 #date{
@@ -71,12 +102,14 @@ main {
 
 #social-media, #archive{
     color: #48BB78;
+    padding: 1rem;
 }
 
 #about{
     color: #000000;
     background-color: #E2E8F0;
     padding: 1rem;
+   
 }
 
 main h3{
@@ -112,9 +145,10 @@ main h3{
 
 aside{
     grid-area: aside;
+    padding-top: 40px;
     /* grid-column:  1 / span 10;
     grid-row: 5 / 9; */
-
+    margin-right: 1rem;
 }
 
 aside a{
@@ -127,4 +161,11 @@ footer{
     grid-row: 9 /  10; */
     background-color: #2C5282;
     color: #FFFFFF;
+    /* padding-top: 80px; */
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;   
+    align-items: center;  
+    /* padding: 1rem; */
+    margin: 0;
 }
